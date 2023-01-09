@@ -1,3 +1,4 @@
+
 let pais = 'Brasil';
 let frase = ' país Continental';
 
@@ -8,10 +9,8 @@ console.log(pais.toUpperCase());
 // transfomrando para minuscula
 console.log(pais.toLowerCase());
 
-
 // Concatenação 
 console.log(pais + frase);
-
 
 //Concatenação com a Template String (forma atualiza)
 console.log(`${pais} ${frase}`);
@@ -23,11 +22,9 @@ let fraseCompleta = `${pais} Um país Continental`;
 
 console.log(fraseCompleta.replace('continental', 'Tropical'));
 
-
 // Mêtodo exige parametros no parametros  
 // Propriedades não exige parenteses
 console.log(fraseCompleta.length);
-
 
 let n1 = 3;
 let n2 = 4;
@@ -42,8 +39,6 @@ console.log(resultado3);
 
 let a = '10';
 let b = '20';
-
-
 
 console.log(parseInt(a)+parseInt(b));
 
